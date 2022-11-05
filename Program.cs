@@ -1,6 +1,9 @@
-﻿Console.WriteLine("введите число");
-int a;
-a = int.Parse(Console.ReadLine());
-for (b = 1; int b <= int a; int b++);
-if (int b % 2 == 0);
-    Console.Write(int b);
+﻿ double a, b;
+        Console.Write("Введите первое число: ");
+        a = Double.Parse(Console.ReadLine());
+        Console.Write("Введите второе число: ");
+        b = Double.Parse(Console.ReadLine());
+        if (a > b)
+            Console.WriteLine("{0} - максимальное значение, {1} - минимальное значение", a, b);
+        else Console.WriteLine("{0} - максимальное значение, {1} - минимальное значение", b, a);
+
