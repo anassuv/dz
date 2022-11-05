@@ -1,9 +1,10 @@
-﻿ double a, b;
-        Console.Write("Введите первое число: ");
-        a = Double.Parse(Console.ReadLine());
-        Console.Write("Введите второе число: ");
-        b = Double.Parse(Console.ReadLine());
-        if (a > b)
-            Console.WriteLine("{0} - максимальное значение, {1} - минимальное значение", a, b);
-        else Console.WriteLine("{0} - максимальное значение, {1} - минимальное значение", b, a);
+﻿ Console.Write("a = ");
+            double a = double.Parse(Console.ReadLine());
+            Console.Write("b = ");
+            double b = double.Parse(Console.ReadLine());
+            Console.Write("c = ");
+            double c = double.Parse(Console.ReadLine());
+            if (a > b) a = b;
+            if (a > c) a = c;
+            Console.WriteLine("max = {0}",a);
 
